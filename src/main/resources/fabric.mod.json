@@ -1,0 +1,22 @@
+{
+  "schemaVersion": 1,
+  "id": "trialvaultscanner",
+  "version": "${version}",
+  "name": "Trial & Vault Scanner",
+  "description": "Alerts the player when loaded chunks contain Trial Spawners or Vaults.",
+  "authors": [
+    "Eddo404"
+  ],
+  "environment": "client",
+  "entrypoints": {
+    "client": [
+      "com.example.trialvaultscanner.TrialVaultScannerClient"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.0",
+    "minecraft": "~1.21.1",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
